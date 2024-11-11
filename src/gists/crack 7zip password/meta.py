@@ -1,0 +1,3 @@
+IMPORTS = [
+    "py7zr"
+]
