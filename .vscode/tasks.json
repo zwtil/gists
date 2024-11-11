@@ -12,6 +12,21 @@
             "label": "setup venv dependencies",
             "type": "shell",
             "command": ".venv\\Scripts\\activate && python .vscode/scripts/localVenvInstall.py",
+        },
+        {
+            "label": "toggle vis: .vscode",
+            "type": "shell",
+            "command": ".venv\\Scripts\\activate && python .vscode/scripts/toggleVis.py .vscode",
+        },
+        {
+            "label": "toggle vis: .github",
+            "type": "shell",
+            "command": ".venv\\Scripts\\activate && python .vscode/scripts/toggleVis.py .github",
+        },
+        {
+            "label": "toggle vis: __test__",
+            "type": "shell",
+            "command": ".venv\\Scripts\\activate && python .vscode/scripts/toggleVis.py __test__",
         }
     ]
 }
