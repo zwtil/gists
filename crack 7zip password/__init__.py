@@ -2,7 +2,6 @@ import typing as _typing
 import py7zr as _py7zr
 
 
-
 def crack_password(
     path: str,
     passwordStream: _typing.Generator[str, None, None],

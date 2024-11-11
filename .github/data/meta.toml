@@ -1,0 +1,34 @@
+["crack 7zip password"]
+depends = [
+    #"py7zr"
+]
+
+["cryptography"]
+depends = [
+    "cryptography"
+]
+
+["discord embeds"]
+depends = [
+    "discord"
+]
+
+["extended yaml that supports nesting"]
+depends = [
+    "pyyaml"
+]
+
+["mediawiki parser"]
+depends = [
+    "pymediawiki==0.7.3",
+    "zuu"
+]
+
+["moviepy generate thumbnail"]
+depends = [
+    "pillow",
+    "numpy",
+    "moviepy",
+    "zuu-va"
+]
+
